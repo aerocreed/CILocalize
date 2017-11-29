@@ -1,0 +1,124 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:273), pid=10136, tid=0x0000000000002358
+#
+# JRE version: OpenJDK Runtime Environment (8.0_112-b06) (build 1.8.0_112-release-b06)
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000056ad7000):  JavaThread "C1 CompilerThread2" daemon [_thread_in_native, id=9048, stack(0x0000000057170000,0x0000000057270000)]
+
+Stack: [0x0000000057170000,0x0000000057270000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+Current CompileTask:
+C1:    766  427   !   3      
+[error occurred during error reporting (printing current compile task), id 0xe0000001]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000056d60800 JavaThread "pool-1-thread-4" [_thread_in_Java, id=15276, stack(0x0000000058130000,0x0000000058230000)]
+  0x0000000056bf4000 JavaThread "pool-1-thread-3" [_thread_in_vm, id=16084, stack(0x0000000057f50000,0x0000000058050000)]
+  0x0000000056bf1800 JavaThread "pool-1-thread-2" [_thread_blocked, id=8504, stack(0x0000000057dd0000,0x0000000057ed0000)]
+  0x0000000057286000 JavaThread "pool-2-thread-1" [_thread_new, id=9080, stack(0x0000000000000000,0x0000000000000000)]
+  0x0000000057284800 JavaThread "pool-1-thread-1" [_thread_blocked, id=7900, stack(0x0000000057c10000,0x0000000057d10000)]
+  0x0000000056ad8000 JavaThread "Service Thread" daemon [_thread_blocked, id=496, stack(0x00000000566a0000,0x00000000567a0000)]
+=>0x0000000056ad7000 JavaThread "C1 CompilerThread2" daemon [_thread_in_native, id=9048, stack(0x0000000057170000,0x0000000057270000)]
+  0x0000000056ad6800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=15768, stack(0x0000000056f80000,0x0000000057080000)]
+  0x0000000055075800 JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=13124, stack(0x0000000056980000,0x0000000056a80000)]
+  0x0000000055071000 JavaThread "Attach Listener" daemon [_thread_blocked, id=8412, stack(0x0000000056800000,0x0000000056900000)]
+  0x0000000055070000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=8968, stack(0x0000000056560000,0x0000000056660000)]
+  0x0000000055051800 JavaThread "Finalizer" daemon [_thread_blocked, id=9756, stack(0x00000000563e0000,0x00000000564e0000)]
+  0x0000000055010000 JavaThread "Reference Handler" daemon [_thread_blocked, id=11892, stack(0x0000000055ff0000,0x00000000560f0000)]
+  0x00000000022be000 JavaThread "main" [_thread_in_Java, id=9344, stack(0x0000000002590000,0x0000000002690000)]
+
+Other Threads:
+  0x0000000055008800 VMThread [stack: 0x0000000056100000,0x0000000056200000] [id=12664]
+  0x0000000056ad9800 WatcherThread [stack: 0x0000000056e80000,0x0000000056f80000] [id=4552]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 57344K, used 13824K [0x00000000eab00000, 0x00000000eeb00000, 0x0000000100000000)
+  eden space 49152K, 28% used [0x00000000eab00000,0x00000000eb8802b8,0x00000000edb00000)
+  from space 8192K, 0% used [0x00000000ee300000,0x00000000ee300000,0x00000000eeb00000)
+  to   space 8192K, 0% used [0x00000000edb00000,0x00000000edb00000,0x00000000ee300000)
+ ParOldGen       total 131072K, used 0K [0x00000000c0000000, 0x00000000c8000000, 0x00000000eab00000)
+  object space 131072K, 0% used [0x00000000c0000000,0x00000000c0000000,0x00000000c8000000)
+ Metaspace       used 5355K, capacity 6448K, committed 6528K, reserved 1056768K
+  class space    used 565K, capacity 616K, committed 640K, reserved 1048576K
+
+Card table byte_map: [0x0000000011d20000,0x0000000011f30000] byte_map_base: 0x0000000011720000
+
+Marking Bits: (ParMarkBitMap*) 0x000000006e3918f0
+ Begin Bits: [0x0000000012480000, 0x0000000013480000)
+ End Bits:   [0x0000000013480000, 0x0000000014480000)
+
+Polling page: 0x0000000000230000
+
+CodeCache: size=245760Kb used=1945Kb max_used=1956Kb free=243814Kb
+ bounds [0x0000000002960000, 0x0000000002bd0000, 0x0000000011960000]
+ total_blobs=700 nmethods=434 adapters=180
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 0.759 Thread 0x0000000056ad7000 nmethod 434 0x0000000002b3e9d0 code [0x0000000002b3eb40, 0x0000000002b3ecc8]
+Event: 0.759 Thread 0x0000000056ad7000  427   !   3       com.android.dx.cf.code.BytecodeArray::parseInstruction (2764 bytes)
+Event: 0.760 Thread 0x0000000055075800  439   !   4       com.android.dx.util.FixedSizeList::get0 (47 bytes)
+Event: 0.760 Thread 0x0000000055075800 nmethod 439 0x0000000002b3e710 code [0x0000000002b3e840, 0x0000000002b3e8f8]
+Event: 0.761 Thread 0x0000000056ad6800  444       4       com.android.dx.util.MutabilityControl::throwIfImmutable (18 bytes)
+Event: 0.761 Thread 0x0000000056ad6800 nmethod 444 0x0000000002b3e4d0 code [0x0000000002b3e600, 0x0000000002b3e678]
+Event: 0.762 Thread 0x0000000055075800  447       4       com.android.dx.rop.type.Type::getCategory (36 bytes)
+Event: 0.762 Thread 0x0000000055075800 nmethod 447 0x0000000002b3e210 code [0x0000000002b3e340, 0x0000000002b3e3b8]
+Event: 0.762 Thread 0x0000000056ad6800  448       4       java.util.ArrayList$Itr::next (66 bytes)
+Event: 0.763 Thread 0x0000000056ad6800 nmethod 448 0x0000000002b48110 code [0x0000000002b48260, 0x0000000002b48378]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (1 events):
+Event: 0.466 Thread 0x00000000022be000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002a8c6cc method=java.lang.String.indexOf(II)I @ 49
+
+Internal exceptions (2 events):
+Event: 0.077 Thread 0x00000000022be000 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x00000000eab07c78) thrown at [C:\src\android\AOSP-openjdk\external\jetbrains\jdk\hotspot\src\share\vgχύ\Τ³?
+Event: 0.077 Thread 0x00000000022be000 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x00000000eab07f60) thrown at [C:\src\android\AOSP-openjdk\external\jetbrains\jdk\hotspot\src\share\vm\prims\jni.cpp, l
+
+Events (10 events):
+Event: 0.754 loading class com/android/dx/dex/code/RopToDop
+Event: 0.754 loading class com/android/dx/dex/code/RopToDop done
+Event: 0.756 loading class com/android/dx/dex/code/StdCatchBuilder
+Event: 0.756 loading class com/android/dx/dex/code/StdCatchBuilder done
+Event: 0.757 loading class com/android/dx/dex/code/DalvCode
+Event: 0.757 loading class com/android/dx/dex/code/DalvCode done
+Event: 0.757 loading class com/android/dx/dex/file/DebugInfoItem
+Event: 0.757 loading class com/android/dx/dex/file/DebugInfoItem done
+Event: 0.758 loading class java/io/PrintWriter
+Event: 0.758 loading class java/io/PrintWriter done
+
+
+Dynamic libraries:

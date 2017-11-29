@@ -1,0 +1,83 @@
+[
+  {
+    "index": 0,
+    "tag": "terceirizados",
+    "lat": -7.16236370,
+    "lgt": -34.81725901,
+    "nghbr": [1, 3],
+    "dist": [5.2, 2.4],
+    "floor": 0
+  },
+  {
+    "index": 1,
+    "tag": "lavid",
+    "lat": -7.16236636,
+    "lgt": -34.81721006,
+    "nghbr": [0, 2, 4],
+    "dist": [5.2, 5.6, 2.1],
+    "floor": 0
+  },
+  {
+    "index": 2,
+    "tag": "sb01",
+    "lat": -7.16236969,
+    "lgt": -34.81715709,
+    "nghbr": [1, 5],
+    "dist": [5.6, 2.2],
+    "floor": 0
+  },
+  {
+    "index": 3,
+    "tag": "terceirizados_corredor",
+    "lat": -7.16234640,
+    "lgt": -34.81725767,
+    "nghbr": [0, 4, 6],
+    "dist": [2.4, 5.2, 2.2],
+    "floor": 0
+  },
+  {
+    "index": 4,
+    "tag": "lavid_corredor",
+    "lat": -7.16234973,
+    "lgt": -34.81720939,
+    "nghbr": [1, 3, 5, 7],
+    "dist": [2.1, 5.2, 5.6, 2.0],
+    "floor": 0
+  },
+  {
+    "index": 5,
+    "tag": "sb01_corredor",
+    "lat": -7.11356726,
+    "lgt":  -34.87752282,
+    "nghbr": [2, 4, 8],
+    "dist": [2.2, 5.6, 2.0],
+    "floor": 0
+  },
+  {
+    "index": 6,
+    "tag": "escada",
+    "lat": -7.16233044,
+    "lgt": -34.81725767,
+    "nghbr": [3, 7],
+    "dist": [2.2, 5.2],
+    "floor": 0
+  },
+  {
+    "index": 7,
+    "tag": "lavid_escada",
+    "lat": -7.16233376,
+    "lgt": -34.81720872,
+    "nghbr": [4, 6, 8],
+    "dist": [2.0, 5.2, 5.6],
+    "floor": 0
+  },
+  {
+    "index": 8,
+    "tag": "sb01_escada",
+    "lat": -7.16233709,
+    "lgt": -34.81715642,
+    "nghbr": [5, 7],
+    "dist": [2.0, 5.6],
+    "floor": 0
+  }
+]

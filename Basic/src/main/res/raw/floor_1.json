@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "tag": "t07_porta",
+    "tipo": "porta",
+    "lat": -7.16237235,
+    "lgt": -34.81744006,
+    "nghbr": [1],
+    "dist": [3.0],
+    "floor": 1
+  },
+  {
+    "index": 1,
+    "tag": "corredor_salas",
+    "tipo": "corredor",
+    "lat": -7.16237235,
+    "lgt": -34.81741190,
+    "nghbr": [0, 2],
+    "dist": [3.0, 2.7],
+    "floor": 1
+  },
+  {
+    "index": 2,
+    "tag": "corredor_salas2",
+    "tipo": "corredor",
+    "lat": -7.16237368,
+    "lgt": -34.81738508,
+    "nghbr": [1, 3],
+    "dist": [2.7, 3.0],
+    "floor": 1
+  },
+  {
+    "index": 3,
+    "tag": "corredor_salas3",
+    "tipo": "corredor",
+    "lat": -7.16237501,
+    "lgt": -34.81735691,
+    "nghbr": [2, 4, 8],
+    "dist": [3.0, 2.6, 2.5],
+    "floor": 1
+  },
+  {
+    "index": 4,
+    "tag": "corredor_salas4",
+    "tipo": "escada",
+    "lat": -7.16237634,
+    "lgt": -34.81733076,
+    "nghbr": [3, 5],
+    "dist": [2.6, 2.4],
+    "floor": 1
+  },
+  {
+    "index": 5,
+    "tag": "t07_porta2",
+    "tipo": "porta",
+    "lat": -7.16237767,
+    "lgt": -34.81730863,
+    "nghbr": [4, 6],
+    "dist": [2.4, 3.6],
+    "floor": 1
+  },
+  {
+    "index": 6,
+    "tag": "t06",
+    "tipo": "porta",
+    "lat": -7.16237900,
+    "lgt": -34.81727511,
+    "nghbr": [5, 7],
+    "dist": [3.6, 5.1],
+    "floor": 1
+  },
+  {
+    "index": 7,
+    "tag": "t05",
+    "tipo": "porta",
+    "lat": -7.16238100,
+    "lgt": -34.81722750,
+    "nghbr": [6],
+    "dist": [5.1],
+    "floor": 1
+  },
+  {
+    "index": 8,
+    "tag": "wc_fem",
+    "tipo": "porta",
+    "lat": -7.16235439,
+    "lgt": -34.81736295,
+    "nghbr": [3, 9],
+    "dist": [2.5, 3.2],
+    "floor": 1
+  },
+  {
+    "index": 9,
+    "tag": "wc_masc",
+    "tipo": "porta",
+    "lat": -7.16232644,
+    "lgt": -34.81736228,
+    "nghbr": [8, 12],
+    "dist": [3.2, 2.5],
+    "floor": 1
+  },
+  {
+    "index": 10,
+    "tag": "escada_andar2",
+    "tipo": "escada",
+    "lat": -7.16232777,
+    "lgt": -34.81730260,
+    "nghbr": [11, 13],
+    "dist": [1.8, 2.7],
+    "floor": 1
+  },
+  {
+    "index": 11,
+    "tag": "escada_subsolo",
+    "tipo": "escada",
+    "lat": -7.16232245,
+    "lgt": -34.81728785,
+    "nghbr": [10, 13, 14],
+    "dist": [1.8, 3.1, 2.3],
+    "floor": 1
+  },
+  {
+    "index": 12,
+    "tag": "recepcao2",
+    "tipo": "porta",
+    "lat": -7.16230582,
+    "lgt": -34.81735222,
+    "nghbr": [9, 13, 17],
+    "dist": [3.2, 4.7, 3.7],
+    "floor": 1
+  },
+  {
+    "index": 13,
+    "tag": "corredor",
+    "tipo": "corredor",
+    "lat": -7.16230648,
+    "lgt": -34.81730662,
+    "nghbr": [9, 11, 12, 14, 17, 18],
+    "dist": [2.7, 3.1, 4.7, 3.6, 2.7, 2.9],
+    "floor": 1
+  },
+  {
+    "index": 14,
+    "tag": "corredor2",
+    "tipo": "corredor",
+    "lat": -7.16230848,
+    "lgt": -34.81727310,
+    "nghbr": [11, 13, 15, 18],
+    "dist": [2.3, 3.6, 3.2, 3.9],
+    "floor": 1
+  },
+  {
+    "index": 15,
+    "tag": "coordenacoes",
+    "tipo": "porta",
+    "lat": -7.16231048,
+    "lgt":  -34.81724292,
+    "nghbr": [14, 16],
+    "dist": [3.2, 6.0],
+    "floor": 1
+  },
+  {
+    "index": 16,
+    "tag": "direcao",
+    "tipo": "porta",
+    "lat": -7.16231513,
+    "lgt": -34.81718726,
+    "nghbr": [15],
+    "dist": [6.0],
+    "floor": 1
+  },
+  {
+    "index": 17,
+    "tag": "recepcao",
+    "tipo": "corredor",
+    "lat": -7.16228985,
+    "lgt": -34.81732205,
+    "nghbr": [12, 13, 18],
+    "dist": [3.7, 2.7, 2.9],
+    "floor": 1
+  },
+  {
+    "index": 18,
+    "tag": "entrada",
+    "tipo": "corredor",
+    "lat": -7.16228320,
+    "lgt": -34.81729522,
+    "nghbr": [13, 14, 17, 25, 26],
+    "dist": [2.9, 3.9, 2.9, 3.7, 3.6],
+    "floor": 1
+  },
+  {
+    "index": 19,
+    "tag": "convivencia2",
+    "tipo": "corredor",
+    "lat": -7.16230449,
+    "lgt":  -34.81741391,
+    "nghbr": [20, 21],
+    "dist": [3.2, 3.5],
+    "floor": 1
+  },
+  {
+    "index": 20,
+    "tag": "convivencia",
+    "tipo": "corredor",
+    "lat": -7.16228852,
+    "lgt":  -34.81743537,
+    "nghbr": [19, 21, 22],
+    "dist": [3.2, 5.6, 4.3],
+    "floor": 1
+  },
+  {
+    "index": 21,
+    "tag": "convivencia3",
+    "tipo": "corredor",
+    "lat": -7.16222997,
+    "lgt":  -34.81734619,
+    "nghbr": [19, 20, 23],
+    "dist": [3.2, 5.6, 4.5],
+    "floor": 1
+  },
+  {
+    "index": 22,
+    "tag": "convivencia_corredor",
+    "tipo": "corredor",
+    "lat": -7.16225259,
+    "lgt":  -34.81742598,
+    "nghbr": [20, 23, 27],
+    "dist": [3.2, 4.0, 3.1],
+    "floor": 1
+  },
+  {
+    "index": 23,
+    "tag": "convivencia_corredor2",
+    "tipo": "corredor",
+    "lat": -7.16230449,
+    "lgt": -34.81741391,
+    "nghbr": [21, 22, 24, 28],
+    "dist": [4.3, 4.0, 4.1, 2.8],
+    "floor": 1
+  },
+  {
+    "index": 24,
+    "tag": "convivencia_corredor3",
+    "tipo": "corredor",
+    "lat": -7.16229251,
+    "lgt": -34.81738172,
+    "nghbr": [23, 25, 29],
+    "dist": [4.1, 3.6, 3.0],
+    "floor": 1
+  },
+  {
+    "index": 25,
+    "tag": "convivencia_corredor4",
+    "tipo": "corredor",
+    "lat": -7.16225725,
+    "lgt": -34.81731266,
+    "nghbr": [18, 24, 26, 30],
+    "dist": [3.7, 3.6, 3.8, 2.9],
+    "floor": 1
+  },
+  {
+    "index": 26,
+    "tag": "convivencia_corredor5",
+    "tipo": "corredor",
+    "lat": -7.16223330,
+    "lgt": -34.81727242,
+    "nghbr": [18, 25, 31],
+    "dist": [3.6, 3.8, 3.0],
+    "floor": 1
+  },
+  {
+    "index": 27,
+    "tag": "convivencia_entrada",
+    "tipo": "corredor",
+    "lat": -7.16222532,
+    "lgt": -34.81742464,
+    "nghbr": [22, 28],
+    "dist": [3.1, 4.1],
+    "floor": 1
+  },
+  {
+    "index": 28,
+    "tag": "convivencia_entrada2",
+    "tipo": "corredor",
+    "lat": -7.16222864,
+    "lgt": -34.81738508,
+    "nghbr": [23, 27, 29],
+    "dist": [2.8, 3.1, 4.0],
+    "floor": 1
+  },
+  {
+    "index": 29,
+    "tag": "convivencia_entrada3",
+    "tipo": "corredor",
+    "lat": -7.16222997,
+    "lgt": -34.81734619,
+    "nghbr": [24, 28, 30],
+    "dist": [3.0, 3.1, 3.8],
+    "floor": 1
+  },
+  {
+    "index": 30,
+    "tag": "convivencia_entrada4",
+    "tipo": "corredor",
+    "lat": -7.16223197,
+    "lgt": -34.81731065,
+    "nghbr": [25, 29, 31],
+    "dist": [2.9, 3.8, 4.0],
+    "floor": 1
+  },
+  {
+    "index": 31,
+    "tag": "convivencia_entrada5",
+    "tipo": "corredor",
+    "lat": -7.16223330,
+    "lgt": -34.81727242,
+    "nghbr": [26, 30],
+    "dist": [3.0, 4.0],
+    "floor": 1
+  }
+]

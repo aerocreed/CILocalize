@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDxKbdk5uAlIiGQSZC_TciRI8BtpAepKOs
+    </string>
+    <string name="indoor_atlas_api_key" translatable="false" templateMergeStrategy="preserve">
+        2c1b978a-d875-48f0-b055-15c3e529b4f6
+    </string>
+    <string name="indoor_atlas_api_secret" translatable="false" templateMergeStrategy="preserve">
+        l31RfFI+hjtS8aV0CImOUcAvoz0ZyX61RNA+LT+1Z6Xj9EyfRBKeDeDoVbcoPNHoVTlWMmCqPFBQ8IHZo6uAejTIzRa9ELSYfnN+y7s2MxFREhx1GA0NHXO4JpAqmw==
+    </string>
+    <string name="indoor_atlas_api_key_old" translatable="false" templateMergeStrategy="preserve">
+        550a323e-434b-4829-9a9a-b711ee72822d
+    </string>
+    <string name="indoor_atlas_api_secret_old" translatable="false" templateMergeStrategy="preserve">
+       p2EujgtATXTcmH/TohxFNUfGIbYaUT9zAr5LTIKf7fGvnvMFGb8QsmjkbfNxGz2PiEb64JMleNNl5F+Hfs/dLG8tq3RaL6GckqZmU3Ntjv22K88HNaRhca2VRR59OQ==
+    </string>
+</resources>

@@ -1,0 +1,202 @@
+[
+  {
+    "index": 1,
+    "tag": "laser",
+    "tipo": "porta",
+    "lat": -7.16237235,
+    "lgt": -34.81740721,
+    "nghbr": [2],
+    "dist": [2.1],
+    "floor": 3
+  },
+  {
+    "index": 2,
+    "tag": "leonardo",
+    "tipo": "porta",
+    "lat": -7.16237368,
+    "lgt": -34.81738575,
+    "nghbr": [1, 3],
+    "dist": [2.1, 3.1],
+    "floor": 3
+  },
+  {
+    "index": 3,
+    "tag": "lumo",
+    "tipo": "porta",
+    "lat": -7.16237568,
+    "lgt": -34.81735490,
+    "nghbr": [2, 4, 10],
+    "dist": [3.1, 3.8, 2.8],
+    "floor": 3
+  },
+  {
+    "index": 4,
+    "tag": "lar",
+    "tipo": "porta",
+    "lat": -7.16237767,
+    "lgt": -34.81731802,
+    "nghbr": [3, 5],
+    "dist": [3.8, 4.1],
+    "floor": 3
+  },
+  {
+    "index": 5,
+    "tag": "lucidio",
+    "tipo": "porta",
+    "lat": -7.16237900,
+    "lgt": -34.81727980,
+    "nghbr": [4, 6],
+    "dist": [4.1, 4.1],
+    "floor": 3
+  },
+  {
+    "index": 6,
+    "tag": "quirino",
+    "tipo": "porta",
+    "lat": -7.16238100,
+    "lgt":  -34.81724225,
+    "nghbr": [5, 7],
+    "dist": [4.1, 4.4],
+    "floor": 3
+  },
+  {
+    "index": 7,
+    "tag": "jairo",
+    "tipo": "porta",
+    "lat": -7.16238300,
+    "lgt": -34.81720068,
+    "nghbr": [6, 8],
+    "dist": [4.4, 3.6],
+    "floor": 3
+  },
+  {
+    "index": 8,
+    "tag": "ed",
+    "tipo": "porta",
+    "lat": -7.16238433,
+    "lgt": -34.81716849,
+    "nghbr": [7, 9],
+    "dist": [3.6, 2.0],
+    "floor": 3
+  },
+  {
+    "index": 9,
+    "tag": "lasic",
+    "tipo": "porta",
+    "lat": -7.16238499,
+    "lgt": -34.81714837,
+    "nghbr": [8],
+    "dist": [2.0],
+    "floor": 3
+  },
+  {
+    "index": 10,
+    "tag": "wc_fem",
+    "tipo": "porta",
+    "lat": -7.16235306,
+    "lgt": -34.81736362,
+    "nghbr": [3, 11],
+    "dist": [2.8, 3.2],
+    "floor": 3
+  },
+  {
+    "index": 11,
+    "tag": "wc_masc",
+    "tipo": "porta",
+    "lat": -7.16232644,
+    "lgt": -34.81736228,
+    "nghbr": [10, 13],
+    "dist": [3.2, 2.2],
+    "floor": 3
+  },
+  {
+    "index": 12,
+    "tag": "escada",
+    "tipo": "porta",
+    "lat": -7.16233310,
+    "lgt": -34.81731735,
+    "nghbr": [15],
+    "dist": [2.7],
+    "floor": 3
+  },
+  {
+    "index": 13,
+    "tag": "ci304",
+    "tipo": "porta",
+    "lat": -7.16230848,
+    "lgt": -34.81736429,
+    "nghbr": [11, 14],
+    "dist": [2.2, 1.9],
+    "floor": 3
+  },
+  {
+    "index": 14,
+    "tag": "pet",
+    "tipo": "porta",
+    "lat": -7.16230781,
+    "lgt": -34.81734551,
+    "nghbr": [13, 15],
+    "dist": [1.9, 3.3],
+    "floor": 3
+  },
+  {
+    "index": 15,
+    "tag": "robotica",
+    "tipo": "porta",
+    "lat": -7.16230981,
+    "lgt": -34.81731400,
+    "nghbr": [12, 14, 16],
+    "dist": [2.7, 3.3, 4.0],
+    "floor": 3
+  },
+  {
+    "index": 16,
+    "tag": "ci309",
+    "tipo": "porta",
+    "lat": -7.16231114,
+    "lgt": -34.81727645,
+    "nghbr": [15, 17],
+    "dist": [4.0, 4.0],
+    "floor": 3
+  },
+  {
+    "index": 17,
+    "tag": "ci308",
+    "tipo": "porta",
+    "lat": -7.16231314,
+    "lgt": -34.81723756,
+    "nghbr": [16, 18],
+    "dist": [4.0, 3.8],
+    "floor": 3
+  },
+  {
+    "index": 18,
+    "tag": "labec2",
+    "tipo": "porta",
+    "lat": -7.16231447,
+    "lgt": -34.81720001,
+    "nghbr": [17, 19],
+    "dist": [3.8, 3.4],
+    "floor": 3
+  },
+  {
+    "index": 19,
+    "tag": "labec1",
+    "tipo": "porta",
+    "lat": -7.16231824,
+    "lgt": -34.81716705,
+    "nghbr": [18, 20],
+    "dist": [3.4, 2.1],
+    "floor": 3
+  },
+  {
+    "index": 20,
+    "tag": "biblioteca",
+    "tipo": "porta",
+    "lat": -7.16231846,
+    "lgt": -34.81714569,
+    "nghbr": [19],
+    "dist": [2.1],
+    "floor": 3
+  }
+]

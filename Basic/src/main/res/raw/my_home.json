@@ -1,0 +1,72 @@
+[
+  {
+    "index": 0,
+    "tag": "quartinho",
+    "tipo": "sala",
+    "lat": -7.11364201,
+    "lgt":  -34.87750988,
+    "nghbr": [1],
+    "dist": [3.8],
+    "floor": 0
+  },
+  {
+    "index": 1,
+    "tag": "cozinha",
+    "tipo": "corredor",
+    "lat": -7.11361179,
+    "lgt": -34.87749472,
+    "nghbr": [0, 3],
+    "dist": [3.8, 3.7],
+    "floor": 0
+  },
+  {
+    "index": 2,
+    "tag": "banheiro",
+    "tipo": "sala",
+    "lat": -7.11359449,
+    "lgt": -34.87749472,
+    "nghbr": [3],
+    "dist": [2.2],
+    "floor": 0
+  },
+  {
+    "index": 3,
+    "tag": "sala",
+    "tipo": "corredor",
+    "lat": -7.11358390,
+    "lgt": -34.87751093,
+    "nghbr": [1, 2, 4, 5],
+    "dist": [3.7, 2.2, 2.7, 2.4],
+    "floor": 0
+  },
+  {
+    "index": 4,
+    "tag": "quarto",
+    "tipo": "sala",
+    "lat": -7.11359965,
+    "lgt": -34.87752842,
+    "nghbr": [3],
+    "dist": [2.7],
+    "floor": 0
+  },
+  {
+    "index": 5,
+    "tag": "sala_estar",
+    "tipo": "corredor",
+    "lat": -7.11356726,
+    "lgt":  -34.87752282,
+    "nghbr": [3, 6],
+    "dist": [2.4, 2.7],
+    "floor": 0
+  },
+  {
+    "index": 6,
+    "tag": "porta_terraco",
+    "tipo": "porta",
+    "lat": -7.11355057,
+    "lgt": -34.87753697,
+    "nghbr": [5],
+    "dist": [2.7],
+    "floor": 0
+  }
+]
